@@ -1,8 +1,8 @@
-import * as Chart from './chart.js'
+
 function init(){
-    console.log("init")
+ 
     const ctx=document.getElementById("mycanvas")
-  new Chart(ctx, {
+  new window.Chart(ctx, {
     type: 'bar',
     data: {
       labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
