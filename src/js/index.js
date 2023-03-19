@@ -1,8 +1,9 @@
+import Chart from 'chart.js/auto';
 
 function init(){
  
     const ctx=document.getElementById("mycanvas")
-  new window.Chart(ctx, {
+  new Chart(ctx, {
     type: 'bar',
     data: {
       labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
